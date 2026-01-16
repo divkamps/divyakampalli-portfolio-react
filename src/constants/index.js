@@ -9,57 +9,94 @@ import project8 from "../assets/projects/portfolio-react.jpg";
 import project9 from "../assets/projects/realestate.jpg";
 
 export const HERO_CONTENT = `
+I am a passionate Software Developer with over Five years of experience building and owning scalable, high-performance backend systems and workflow-driven platforms at enterprise scale. I specialize in backend development, API design, and system integration using Java, Spring Boot, Node.js, and cloud-native architectures on AWS and Azure. My experience includes designing high-availability REST APIs, event-driven microservices with Kafka and Redis, and re-architecting legacy systems into modular microservices to improve reliability, performance, and deployment efficiency. I am driven by solving complex system-level problems and leveraging my technical expertise to deliver resilient, efficient, and impactful software solutions.`;
 
-I am a passionate software developer with expertise in building scalable and high-performance applications. With experience in backend development, API design, and system integration, I have worked extensively with technologies like Java, Spring Boot, MySQL, Redis, and AWS. My goal is to leverage my technical skills and problem-solving abilities to create impactful and efficient software solutions.`;
+export const ABOUT_TEXT = `I am a Software Developer with over three years of experience designing, building, and scaling backend systems and workflow-driven platforms used at enterprise scale. I am currently pursuing my Master’s in Computer Science at the Illinois Institute of Technology. My core expertise lies in backend development using Java, Spring Boot, and Node.js, with a strong focus on REST APIs, microservices architectures, event-driven systems, and cloud-native deployments on AWS and Azure.
 
-export const ABOUT_TEXT = `Hi! I am Divya, and I am currently pursuing my Master's in Computer Science at the Illinois Institute of Technology. I am a Software Developer with over three years of experience in designing and deploying scalable microservices architectures using Java and Spring Boot. My expertise includes API development, database management, and cloud technologies.
+Previously at Freshworks, I worked on the FreshService ITSM platform, where I engineered high-availability backend services supporting incident, service request, and self-service workflows for global enterprise customers. I played a key role in modernizing legacy systems into modular microservices, building workflow automation services, and implementing event-driven processing using Kafka and Redis. These initiatives improved system reliability, reduced backend failures, accelerated deployment cycles, and significantly lowered operational and support overhead through structured root-cause analysis and improved observability.
 
-At Freshworks, I played a key role in integrating a Shopify CRM framework, significantly improving data synchronization and consistency. I also spearheaded the transition of legacy Profile Services to a microservices architecture, enhancing system performance and deployment efficiency.
+In my current role, I lead end-to-end development of a centralized operations and community platform, building API-driven task management, ticketing, and collaboration systems. I have also developed LLM-powered self-service solutions using GPT-4 and vector databases to enable intelligent knowledge retrieval and automation. Alongside backend systems, I bring experience in frontend development with React and data-driven projects, including predictive modeling and analytics. I am actively seeking full-time Software Developer roles where I can contribute to building scalable, reliable, and impactful software systems.
 
-Beyond backend development, I have experience in frontend technologies like React and Ember.js, as well as data-driven projects. I built a predictive machine learning model for Chicago crime data analysis and developed a real estate price prediction tool.
-
-I am passionate about solving complex problems, optimizing performance, and contributing to impactful projects. While I am away from coding, I enjoy gardening, watching series, and gaming.
-
-Currently, I am seeking full-time Software Developer roles. Feel free to connect with me via email at divyakampalli.cs@gmail.com.
+You can reach me at codedbydivya@gmail.com
+.
 `;
 
 export const EXPERIENCES = [
   {
-    year: "November 2021 - July 2023",
+    year: "January 2025 - Present",
+    role: "Software Developer",
+    company: "Community Dreams Foundation",
+    description: `Owned end-to-end development of a workflow-driven operations and community platform, building task synchronization, ticketing, self-service, and collaboration capabilities using Node.js and React. Led implementation of LLM-powered knowledge retrieval, RBAC, CI/CD pipelines, and automation to improve operational efficiency and reduce manual support.`,
+    technologies: [
+      "Node.js",
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Next.js",
+      "MySQL",
+      "Pinecone",
+      "REST APIs",
+      "Git",
+      "GitHub Actions",
+      "OpenAI",
+    ],
+  },
+  {
+    year: "July 2020 - July 2023",
     role: "Software Developer",
     company: "Freshworks",
-    description: `Developed a Shopify integration framework for Freshsales Suite CRM, enabling seamless integration of apps like Judge.me, Reviews.io, and Shiprocket with real-time synchronization of customer reviews and shipping data. Additionally, modernized the legacy Profile Services system with a microservices architecture, enhanced webform tracking and social media campaign modules, reduced L2 ticket volume by 80% through proactive issue resolution, and led Agile sprint meetings and Java code reviews to improve development quality and collaboration.`,
+    description: `Worked as a backend engineer on the FreshService ITSM platform, building and scaling incident, service request, and workflow automation services used by global enterprise customers. Focused on API reliability, event-driven microservices, CI/CD, and operational excellence, significantly reducing ticket volume and improving platform stability at scale.`,
     technologies: [
       "Java",
+      "Node.js",
       "Spring Boot",
-      "MySql",
-      "EmberJs",
-      "Redis",
+      "JavaScript",
+      "REST APIs",
+      "MySQL",
       "Kafka",
-      "Git",
+      "Redis",
       "AWS",
+      "React",
+      "Git",
+      "Tomcat",
+      "SonarQube",
     ],
   },
   {
     year: "March 2020 - June 2020",
-    role: "Software Development Intern",
+    role: "Software Developer",
     company: "Hubstream",
-    description: `Contributed to the development of a centralized investigation management system that enhances intelligence-led policing for law enforcement agencies. 
-    Designed and implemented customizable workflows and automated alerts, which prioritized critical tasks and streamlined operational efficiencies across multiple investigative units.`,
-    technologies: [".NET", "React.js", "Selenium"],
+    description: `Developed backend services for a centralized investigation management system, implementing workflow-driven APIs, alerting mechanisms, and data pipelines using Java and Spring Boot. Improved case processing speed, system performance, and operational visibility for investigative teams.`,
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "React",
+      "Selenium",
+      "Azure",
+      "MySQL",
+    ],
   },
   {
     year: "March 2019 - December 2019",
     role: "Data Science Intern",
     company: "IPSG Systems",
-    description: `Worked with fashion retail data, focusing on data cleaning, trend analysis, and pattern identification using R programming. Conducted exploratory data analysis to uncover sales patterns and seasonal trends, enabling data-driven decision-making. Developed visualizations and statistical models to predict consumer demand and optimize inventory management. Collaborated with stakeholders to refine data pipelines, ensuring accurate and efficient data processing for business insights.`,
-    technologies: ["R Programming", "MySQL", "Python"],
+    description: `Performed business-focused data analysis on large retail datasets, building forecasting models and Power BI dashboards to support inventory planning and merchandising decisions across 800+ stores. Delivered actionable insights through data transformation, visualization, and statistical analysis.`,
+    technologies: [
+      "Python",
+      "R",
+      "SQL",
+      "Power BI",
+      "Data Analysis",
+      "Statistical Modeling",
+      "Data Visualization",
+      "Digital Image Processing",
+    ],
   },
 ];
 
 export const EDUCATION = [
   {
-    year: "August 2023 - Present",
     collegeName: "Illinois Institute of Technology",
     subjects: [
       "Computer Networks",
@@ -75,7 +112,6 @@ export const EDUCATION = [
     ],
   },
   {
-    year: "September 2017 - August 2021",
     collegeName: "Anna University",
     subjects: [
       "Programming with C",
@@ -173,5 +209,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Chicago, Illinois ",
   phoneNo: "+1 312 885 9732",
-  email: "divyakampalli.cs@gmail.com",
+  email: "codedbydivya@gmail.com",
 };
