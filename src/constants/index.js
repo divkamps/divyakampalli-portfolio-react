@@ -79,7 +79,7 @@ export const EXPERIENCES = [
   },
   {
     year: "March 2019 - December 2019",
-    role: "Data Science Intern",
+    role: "Data Analyst",
     company: "IPSG Systems",
     description: `Performed business-focused data analysis on large retail datasets, building forecasting models and Power BI dashboards to support inventory planning and merchandising decisions across 800+ stores. Delivered actionable insights through data transformation, visualization, and statistical analysis.`,
     technologies: [
