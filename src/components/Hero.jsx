@@ -1,11 +1,5 @@
-import profilePic from "../assets/divyaprofilepic.jpeg";
 import { motion } from "framer-motion";
-import {
-  FaLinkedin,
-  FaGithub,
-  FaInstagram,
-  FaSquareXTwitter,
-} from "react-icons/fa6";
+import { FaLinkedin, FaGithub } from "react-icons/fa6";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -16,7 +10,7 @@ const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2">
+        <div className="w-full">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
               variants={container(0)}
@@ -26,6 +20,7 @@ const Hero = () => {
             >
               Divya Kampalli
             </motion.h1>
+
             <motion.span
               variants={container(0.5)}
               initial="hidden"
@@ -42,41 +37,22 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              href="https://www.linkedin.com/in/divya-kampalli"
+              href="https://www.linkedin.com/in/divyak17/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin />
             </motion.a>
+
             <motion.a
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              href="https://github.com/DivyaKampalli"
+              href="https://github.com/divkamps"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub />
-            </motion.a>
-            <motion.a
-              variants={container(1)}
-              initial="hidden"
-              animate="visible"
-              href="https://www.instagram.com/_divya_chowdary_/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram />
-            </motion.a>
-            <motion.a
-              variants={container(1)}
-              initial="hidden"
-              animate="visible"
-              href="https://x.com/divya_chowdary_"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaSquareXTwitter />
             </motion.a>
           </div>
 
@@ -94,18 +70,6 @@ const Hero = () => {
                 View Resume
               </span>
             </motion.a>
-          </div>
-        </div>
-
-        <div className="w-full">
-          <div className="flex justify-center">
-            <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
-              alt="profilePic"
-            />
           </div>
         </div>
       </div>
